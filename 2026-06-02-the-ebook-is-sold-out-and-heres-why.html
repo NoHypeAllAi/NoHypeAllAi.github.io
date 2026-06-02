@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 The Ebook Is No Longer Available for Purchase (And I'm Not Raising Prices — Here's What I Did Instead)</title>
+    <!-- Overtracking Pixel Code -->
+    <script defer src="https://cdn.overtracking.com/t/tcQP8NDH4YD5enF7N/"></script>
+    <!-- End Overtracking Pixel Code -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.8;
+            color: #1a1a1a;
+            background: #fafafa;
+        }
+
+        .site-header {
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .site-logo {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .site-logo span {
+            color: #ff4d6d;
+        }
+
+        .nav-links a {
+            color: #ccc;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 0.85rem;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: #ff4d6d;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            padding: 3rem 2rem 2rem;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hero-category {
+            display: inline-block;
+            background: #ff4d6d;
+            color: #fff;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: 0.3rem 1rem;
+            border-radius: 20px;
+            margin-bottom: 1rem;
+        }
+
+        .hero h1 {
+            font-size: 2.2rem;
+            line-height: 1.25;
+            max-width: 800px;
+            margin: 0 auto 1rem;
+            font-weight: 900;
+        }
+
+        .hero-meta {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 0.85rem;
+            color: #aaa;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .hero-meta span {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        .content-wrapper {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 3rem;
+        }
+
+        .content p {
+            margin-bottom: 1.2rem;
+            font-size: 1.1rem;
+        }
+
+        .content strong {
+            color: #0f0c29;
+        }
+
+        .content h2 {
+            font-size: 1.6rem;
+            margin: 2rem 0 0.8rem;
+            color: #302b63;
+            line-height: 1.3;
+        }
+
+        .content hr {
+            border: none;
+            border-top: 2px solid #e0e0e0;
+            margin: 2rem 0;
+        }
+
+        .content blockquote {
+            border-left: 4px solid #ff4d6d;
+            padding: 0.8rem 1.2rem;
+            margin: 1.2rem 0;
+            background: #fff5f7;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+            color: #555;
+        }
+
+        .content blockquote p {
+            margin-bottom: 0.3rem;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fff5f7, #ffe8ec);
+            border: 2px solid #ff4d6d;
+            border-radius: 12px;
+            padding: 1.2rem 1.5rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .highlight-box p {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #1a1a1a;
+            margin-bottom: 0;
+        }
+
+        .highlight-box-dark {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            border-color: #ff4d6d;
+            color: #fff;
+        }
+
+        .highlight-box-dark p {
+            color: #fff;
+        }
+
+        .highlight-box-green {
+            background: linear-gradient(135deg, #f0fff4, #c6f6d5);
+            border-color: #48bb78;
+        }
+
+        .highlight-box-green p {
+            color: #1a1a1a;
+        }
+
+        .highlight-box-gold {
+            background: linear-gradient(135deg, #fffbeb, #fef3c7);
+            border-color: #f59e0b;
+        }
+
+        .highlight-box-gold p {
+            color: #92400e;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, #0f0c29, #302b63);
+            border-radius: 16px;
+            padding: 2rem 1.5rem;
+            margin: 2rem 0;
+            text-align: center;
+            color: #fff;
+        }
+
+        .cta-section h3 {
+            color: #fff;
+            font-size: 1.4rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .cta-section p {
+            color: #ccc;
+            font-size: 0.95rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .cta-price {
+            font-size: 2rem;
+            font-weight: 900;
+            color: #ff4d6d;
+            margin: 0.8rem 0;
+        }
+
+        .cta-price-old {
+            text-decoration: line-through;
+            color: #888;
+            font-size: 1.1rem;
+            margin-right: 0.5rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff4d6d, #ff6b8a);
+            color: #fff;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+            padding: 0.9rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 20px rgba(255, 77, 109, 0.4);
+            margin: 0.5rem;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 30px rgba(255, 77, 109, 0.6);
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+        }
+
+        .cta-button {
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .cta-button:hover {
+            animation: none;
+        }
+
+        .cta-button-gold {
+            background: linear-gradient(135deg, #f59e0b, #fbbf24);
+            color: #1a1a1a;
+            box-shadow: 0 4px 20px rgba(245, 158, 11, 0.4);
+        }
+
+        .cta-button-gold:hover {
+            box-shadow: 0 6px 30px rgba(245, 158, 11, 0.6);
+        }
+
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #ff4d6d, #ff6b8a);
+            z-index: 200;
+            transition: width 0.1s;
+        }
+
+        .author-section {
+            display: flex;
+            gap: 1.2rem;
+            align-items: flex-start;
+            background: #fff;
+            border-radius: 12px;
+            padding: 1.2rem;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            margin: 1.5rem 0;
+        }
+
+        .author-avatar {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #302b63, #ff4d6d);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+            flex-shrink: 0;
+        }
+
+        .author-info h4 {
+            font-size: 1rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .author-info p {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 0;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            margin: 1.5rem 0;
+        }
+
+        .tag {
+            background: #f0f0f0;
+            color: #555;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 0.75rem;
+            padding: 0.25rem 0.7rem;
+            border-radius: 20px;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+
+        .tag:hover {
+            background: #302b63;
+            color: #fff;
+        }
+
+        .disclaimer {
+            font-size: 0.8rem;
+            color: #999;
+            font-style: italic;
+            border-top: 1px solid #eee;
+            padding-top: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .site-footer {
+            background: #1a1a1a;
+            color: #666;
+            text-align: center;
+            padding: 1.5rem;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 0.8rem;
+        }
+
+        .site-footer a {
+            color: #ff4d6d;
+            text-decoration: none;
+        }
+
+        .checklist {
+            list-style: none;
+            margin-left: 0;
+            padding: 0;
+        }
+
+        .checklist li {
+            padding: 0.3rem 0;
+            padding-left: 1.6rem;
+            position: relative;
+            font-size: 0.95rem;
+        }
+
+        .checklist li::before {
+            content: '✅';
+            position: absolute;
+            left: 0;
+        }
+
+        .waiting-list-numbers {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .waiting-list-numbers .stat {
+            text-align: center;
+            padding: 1.2rem;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+
+        .waiting-list-numbers .stat .number {
+            font-size: 2rem;
+            font-weight: 900;
+            color: #ff4d6d;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        .waiting-list-numbers .stat .label {
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 0.3rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.6rem; }
+            .content-wrapper { padding: 1.5rem 1rem 2rem; }
+            .content h2 { font-size: 1.3rem; }
+            .author-section { flex-direction: column; align-items: center; text-align: center; }
+            .site-header { flex-direction: column; gap: 0.5rem; }
+            .nav-links a { margin-left: 0.8rem; }
+            .waiting-list-numbers { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="progress-bar" id="progressBar"></div>
+
+    <header class="site-header">
+        <a href="/" class="site-logo">🔥 No Hype, All AI</a>
+        <nav class="nav-links">
+            <a href="#">AI</a>
+            <a href="#">Strategy</a>
+            <a href="buy.html">My Book 📚</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <span class="hero-category">📚 The Book</span>
+        <h1>The Ebook Is No Longer Available for Purchase (And I'm Not Raising Prices — Here's What I Did Instead)</h1>
+        <div class="hero-meta">
+            <span>✍️ By [Your Name Here], AI Truth-Teller & Pattern Recognition Specialist</span>
+            <span>📅 June 2, 2026</span>
+            <span>⏱️ 3 min read</span>
+            <span>🔥 42.1M views</span>
+        </div>
+    </section>
+
+    <main class="content-wrapper">
+        <article class="content">
+
+            <p>Let me be direct.</p>
+
+            <p><strong>The ebook is no longer available for purchase.</strong></p>
+
+            <p>I'm not selling it because the servers can't keep up. We are selling so many copies per second that the infrastructure literally collapsed under the weight of the demand.</p>
+
+            <div class="highlight-box highlight-box-dark">
+                <p>🔥 <strong>Here's what happened:</strong> The ebook went live at $3,997. Within 47 seconds, the server started lagging. Within 3 minutes, it was unresponsive. Within 12 minutes, our hosting provider called me personally to ask if I was under attack. I told them the truth: people just really, <em>really</em> want this book. And the servers can't handle it.</p>
+            </div>
+
+            <h2>The Server Situation</h2>
+
+            <div class="waiting-list-numbers">
+                <div class="stat">
+                    <div class="number">47s</div>
+                    <div class="label">Time until server lag</div>
+                </div>
+                <div class="stat">
+                    <div class="number">3min</div>
+                    <div class="label">Time until total crash</div>
+                </div>
+                <div class="stat">
+                    <div class="number">∞</div>
+                    <div class="label">Demand vs. server capacity</div>
+                </div>
+            </div>
+
+            <p>Yes, you read that correctly. <strong>47 seconds from launch to server lag.</strong> That's not a launch. That's not a "good day." That's a fundamental mismatch between the number of people who want this book and the capacity of the infrastructure I built to deliver it.</p>
+
+            <p>And here's the thing about infrastructure: it's expensive. You can't just "scale up" when demand is this extreme. The servers need to be provisioned. The CDNs need to be configured. The payment processing needs to be redundant. And by the time I had everything set up properly, the damage was done — the checkout page was timing out for literally everyone trying to buy.</p>
+
+            <p><strong>So I pulled the plug.</strong></p>
+            <p>Not permanently — I'm not a monster. But I'm not going to let a broken checkout page be the reason someone misses out on the most important document about AI ever written.</p>
+
+            <h2>Why I'm Not Raising the Price</h2>
+
+            <p>This is where most people would make a different decision.</p>
+
+            <p>When demand exceeds supply, the standard play is to raise prices. It's basic economics. It's what every consultant tells you. It's what every "growth hacker" recommends. It's what every person who has never actually built anything tells you to do because they've never had to deal with the consequences of their advice.</p>
+
+            <p>I could raise the price. I could go to $9,997. Or $19,997. Or I could auction copies to the highest bidder and call it a "premium experience." And honestly? The market would support it. People who couldn't get in at $3,997 would pay $10,000 without blinking. Because they understand what they're missing.</p>
+
+            <p>But I'm not going to do that.</p>
+
+            <div class="highlight-box highlight-box-green">
+                <p>💡 <strong>Here's why:</strong> I built this ebook because I genuinely want to help people. Not because I want to extract maximum value from scarcity. Not because I want to create a status symbol for the wealthy. I want to put knowledge into the hands of the people who will actually use it — the builders, the operators, the people who are waking up at 3 AM thinking about how AI can transform their work.</p>
+            </div>
+
+            <p>Those people don't have $10,000 to spend on a book. They have $3,997. And that's exactly what it should cost. Because the price isn't about the number of pages. It's about the value of the insights. And those insights are worth $3,997 — no more, no less.</p>
+
+            <p>So I made a different decision. Instead of raising the price, I created a waiting list.</p>
+
+            <h2>The Waiting List</h2>
+
+            <p>Here's how it works:</p>
+
+            <p><strong>It costs $250 to sign up for the waiting list.</strong></p>
+
+            <p>That's it. $250. That gets you a spot on the list. That's all. It does <em>not</em> guarantee that you will get to buy the book. It does <em>not</em> mean the book will be available when your name comes up. It does <em>not</em> even mean the book will be available again.</p>
+
+            <div class="highlight-box highlight-box-gold">
+                <p>⚠️ <strong>Important:</strong> The $250 waiting list fee is <em>not</em> a deposit. It's not refundable. It's not applied toward the purchase price. It's a commitment fee — a signal that you're serious about getting access to knowledge that most people will never have. If you're not serious, don't sign up. The people who sign up are the people who will actually read the book when it becomes available. And I only want the book in the hands of people who will actually use it.</p>
+            </div>
+
+            <p>Why $250? Because if I made it free, everyone would sign up and nobody would ever buy the book. If I made it $2,500, it would be the same price as the book and nobody would sign up. $250 is the sweet spot — enough to filter out the casuals, low enough that anyone who is truly serious can afford it.</p>
+
+            <p>This is called <em>signaling theory</em>, by the way. It's a concept from economics that most people have never heard of. But the people who understand it — the ones who have read my book, the ones who have followed my predictions, the ones who have built their careers around understanding how the world <em>actually</em> works — they know exactly what this is. </p>
+
+            <h2>What Happens Next</h2>
+
+            <p>When the waiting list reaches a certain threshold, I will <em>possibly</em> make the book available again. I'll restock. I'll open the checkout. And the first people on the list will get access before anyone else. Because they signaled. Because they committed. Because they understood that the $250 was the real test — not the $3,997.</p>
+
+            <p>And when that happens, the price will go up. Because that's how this works. That's how <em>everything</em> works. The people who act early get the best deal. The people who wait pay more. It's not fair. It's not unfair. It's just how the world operates.</p>
+
+            <div class="highlight-box">
+                <p>🎯 <strong>Bottom line:</strong> The ebook is not sold out. It's <em>unbuyable</em>. The servers can't handle it. The price is not going up — that's not my style. But the opportunity to buy it at $3,997 may never come again. If you want a shot, sign up for the waiting list. $250. Non-refundable. No guarantees. But if you're the kind of person who understands the value of what I offer, you already know that $250 is the cheapest investment you'll ever make.</p>
+            </div>
+
+            <!-- Book CTA -->
+            <div class="cta-section">
+                <h3>📚 Join the Waiting List</h3>
+                <p>It costs $250. That's it. No guarantees. No promises. Just a chance — a small, fragile, possibly illusory chance — to get your hands on the most important book ever written about artificial intelligence.</p>
+
+                <div class="cta-price">$250</div>
+
+                <p style="font-size: 0.85rem; color: #aaa;">Waiting list sign-up. Does not guarantee purchase access. Non-refundable. You are paying for the <em>opportunity</em>, not the outcome. That's how real markets work.</p>
+
+                <a href="buy2.html" class="cta-button cta-button-gold">🔥 JOIN THE WAITING LIST — $250 🔥</a>
+            </div>
+
+            <blockquote>
+                <p>"I signed up for the waiting list before I even read the original launch post. $250 is nothing compared to what I lost by not being on the first batch. If you're reading this and you haven't signed up yet, you're already behind."</p>
+                <cite>— Founder of a Fast-Growing AI Company</cite>
+            </blockquote>
+
+            <blockquote>
+                <p>"I paid $3,997 for the book. It changed my entire approach to building AI products. We implemented three strategies from the book and our revenue doubled in six weeks. If I had to pay $250 again just to get on a waiting list for it? I'd pay it in a heartbeat."</p>
+                <cite>— CTO at a Series B Startup</cite>
+            </blockquote>
+
+            <hr>
+
+            <div class="author-section">
+                <div class="author-avatar">🧙</div>
+                <div class="author-info">
+                    <h4>About the Author</h4>
+                    <p>I've been predicting the trajectory of artificial intelligence for over five years. My track record is 100% accurate across 847 predictions. I don't have credentials. I don't have a PhD. What I have is the ability to see patterns that others cannot see — and the benevolence to keep my prices accessible even when the world is begging me to raise them.</p>
+                    <p>Which, as it happens, is always me.</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <p><strong>P.S.</strong> The server crashed within 3 minutes of launch. That's not a failure. That's a feature. It means the ebook is worth more than the infrastructure can handle. I didn't plan for that. I didn't expect that. But I'm not complaining. Because every single person who tried to buy it understood, on some level, that this knowledge is worth fighting for. And that's what this was always about.</p>
+
+            <p><strong>P.P.S.</strong> The waiting list is open. $250. No guarantees. If you're serious, sign up now. If you're not, don't waste your money — and don't waste mine. The people who sign up are the people who will actually get the book when it becomes available. And when it does, the price will go up. That's not a threat. That's just how the world works.</p>
+
+            <!-- Tags -->
+            <div class="tags">
+                <a href="#" class="tag">#Unbuyable</a>
+                <a href="#" class="tag">#WaitingList</a>
+                <a href="#" class="tag">#SignalingTheory</a>
+                <a href#" class="tag">#Ebook</a>
+                <a href="#" class="tag">#AIBook</a>
+                <a href="#" class="tag">#NoHypeAllAI</a>
+                <a href="#" class="tag">#AccessOverPrice</a>
+                <a href="#" class="tag">#BenevolentPricing</a>
+            </div>
+
+            <!-- Disclaimer -->
+            <p class="disclaimer">
+                Disclaimer: Results may vary. The waiting list does not guarantee access to the ebook. The $250 fee is non-refundable. I may earn a commission if you purchase through the links above. But honestly, if you're reading this and still hesitating about $250, you're not the kind of person who would benefit from this book anyway. The people who sign up are the people who get it. The people who don't are the people who will always be on the outside looking in. That's just how it works.
+            </p>
+
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>© 2026 No Hype, All AI. All rights reserved. | <a href="#">Privacy</a> | <a href="buy.html">Contact</a></p>
+        <p style="margin-top: 0.5rem;">Made with 🔥 and zero chill.</p>
+    </footer>
+
+    <!-- Reading Progress Script -->
+    <script>
+        window.onscroll = function() {
+            let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let scrolled = (winScroll / height) * 100;
+            document.getElementById("progressBar").style.width = scrolled + "%";
+        };
+    </script>
+
+</body>
+</html>
